@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First project using HTML and CS</title>
+    <link rel="stylesheet" href="mystylesheet.css" media="screen">
+</head>
+<body>
+
+
+
+<header>
+    <!------------------------------------------TopNav Menu divided into two different menus one on the right and one on the left displaying the TopNav FLEX and  --------------------------------------------->
+
+        <div class="TopNav">
+
+            <nav class="Member">
+            <ul>
+                <li>Sign In</li>
+                <li>Become a Member</li>
+                <li>Subscribe</li>
+            </ul>
+            </nav>
+
+            <nav class="rightNav">
+            <ul>
+                <li>Search</li>
+                <li>Careers</li>
+                <li>More</li>
+                <li>Updates</li>
+            </ul>
+            </nav>
+        </div>
+        <!------------------------------------------closing TopNav--------------------------------------------->
+        <div class="First">
+
+        <h1>My Title</h1>
+        </div>
+
+
+
+
+
+
+    </header>
+                 <!---------------------------------------------------StickyNav: sticky menu--------------------------------------------------------------------------------->
+<main>
+
+<nav class="StickyNav">
+
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="gallery.html">gallery</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#articles">news</a></li>
+        <li><a href="#">contacts</a></li>
+    </ul>
+</nav>
+
+
+            <!---------------------------------------------ThreeCol: three pics and description+ read more button- background picture---------------------------------------->
+
+            <div class="ThreeCol section">
+
+                <div class="column">
+                    <p><img src="Images/deer.jpg" alt="deer" width="200" height="300"></p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab, accusamus distinctio maiores nemo nobis recusandae ut! Ab alias, earum error inventore libero magnam, omnis praesentiumrecusandae soluta vel velit?
+                    </p>
+                    <a href="#" class="readMore">read more</a>
+                    </div>
+
+                    <div class="column">
+                    <p><img src="Images/owl.jpg" alt="deer" width="200" height="300"></p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab, accusamus distinctio maiores nemo nobis recusandae ut! Ab alias, earum error inventore libero magnam, omnis praesentiumrecusandae soluta vel velit?
+                    </p>
+                    <a href="#" class="readMore">read more</a>
+                        </div>
+
+                    <div class="column">
+                        <p><img src="Images/allocco.jpg" alt="deer" width="200" height="300"></p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab, accusamus distinctio maiores nemo nobis recusandae ut! Ab alias, earum error inventore libero magnam, omnis praesentiumrecusandae soluta vel velit?
+                    </p>
+                    <a href="#" class="readMore">read more</a>
+                            </div>
+
+
+            </div><!--closing ThreeCol-->
+
+            <!-------------------------------------second section: BigPic ---------------------------------------->
+
+
+            <div class="section_BigPic">
+
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab, accusamus distinctio maiores nemo nobis recusandae ut! Ab alias, earum error inventore libero magnam, omnis praesentiumrecusandae soluta vel velit?</p>
+
+                <img src="Images/lake%20black%20and%20white.jpg" alt="lake" width="800px" height="400px">
+
+
+
+
+        <iframe class="Patagonia" width="560" height="315" src="https://www.youtube.com/embed/HHJS3HPiXDY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+            <div class="News" id="articles">
+                <h1>News</h1>
+
+                <h2>Article 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi debitis enim esse fuga inventore iure magni minima molestiae omnis porro quae quam qui quibusdam quo repellat sunt, veritatis voluptatum.</p>
+                <a href="#" class="readMore">read more</a>
+
+                <h2>The Article 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi debitis enim esse fuga inventore iure magni minima molestiae omnis porro quae quam qui quibusdam quo repellat sunt, veritatis voluptatum.</p>
+                <a href="#" class="readMore">read more</a>
+
+            </div><!--closing Newws-->
+
+
+
+
+            </div><!-------------------------------------closing section_BigPic ---------------------------------------->
+
+<div  class="Map_Form">
+
+    <div class="map">
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4630.383346144968!2d-67.20567717059143!3d-54.53011569529371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4bc2f25662b20d%3A0xffb700a162581532!2sLago+Escondido%2C+Tierra+del+Fuego+Province%2C+Argentina!5e0!3m2!1sen!2suk!4v1515671604878" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <p> Lago Escondido</p>
+        <p>Tierra del Fuego Province, Argentina</p>
+    </div><!--closing Map-->
+
+    <!-------------------------------------Form ---------------------------------------->
+    <form name="contact" action="#" method="get">
+        <fieldset>
+            <legend>Login</legend>
+
+            <p><label for="usr">Username:</label></p>
+
+            <p><input id="usr" type="text" name="username"  value=""></p>
+
+            <p><label for="psw">Password:</label></p>
+            <p><input id="psw" type="password" name="password"  value=""></p>
+            </fieldset>
+
+        <fieldset>
+            <p>New on my website?</p>
+
+            <p><label>I am:</label></p>
+            <p><input type="radio" name="type"   value="An Individual"> An Individual</p>
+            <p><input type="radio" name="type" value="A Company">A company</p>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>About us</legend>
+            <p><label for="aboutUs">How did you hear about us?</label></p>
+            <p>
+                <select name="aboutUs" id="aboutUs">
+                    <option value="web">Internet</option>
+                    <option value="e-mail">E-Mail Campaign</option>
+                    <option value="tv">Our Website</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+        </fieldset>
+    <fieldset>
+        <p><label for="cv">Please upload your CV:</label></p>
+        <p><input type="file" id="cv" name="cv"></p>
+    </fieldset>
+
+
+
+    </form>
+
+</div><!-------------------------------------closing Map_Form div ---------------------------------------->
+
+
+
+
+
+
+
+</main>
+
+
+
+
+    <footer>
+        <nav class="bottomNav">
+            <ul>
+                <li>Home</li>
+                <li>Gallery</li>
+                <li>Contacts</li>
+                <li>Forum</li>
+                <li>About Us</li>
+            </ul>
+        </nav>
+<div class="inner footlist" >
+    <ul>
+        <li>Contacts</li>
+        <li>About Us</li>
+        <li>Jobs</li>
+        <li>Blog</li>
+    </ul>
+    <ul>
+        <li>Tags</li>
+        <li>News</li>
+        <li>Articles</li>
+        <li>Membership </li>
+    </ul>
+    <ul>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+    </ul>
+</div>
+
+    <div class="Copyright">
+<p>Training Dragons &#169 </p>
+    </div>
+
+</footer>
+</body>
+</html>
